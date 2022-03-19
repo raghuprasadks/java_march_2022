@@ -1,0 +1,7 @@
+package oops;
+
+public abstract class RBI {
+	
+	public abstract float rateOfInterest();
+
+}

@@ -1,0 +1,10 @@
+package oops;
+
+//public class Bike extends Vehicle{
+public class Bike{
+	
+	public void start() {
+		System.out.println("Bike:start:Button start ");
+		speed = 0;
+	}
+}

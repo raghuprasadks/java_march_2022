@@ -1,0 +1,24 @@
+package oops;
+
+public class Accounts {
+	
+	String name;
+	String email;
+	long mobile;
+
+	
+	
+	public Accounts(String name,String email,long mobile) {
+		System.out.println("Accounts : Constructor 1");
+		this.name = name;
+		this.email = email;
+		this.mobile = mobile;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Accounts myAct = new Accounts("Rajesh","rajesh@gmail.com",9393939339l);
+	}
+
+}

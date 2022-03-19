@@ -1,0 +1,14 @@
+package oops;
+
+public class BankTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Bank myBank = new Bank();
+		int actno;
+		actno = myBank.openAccount("raghu", "raghu@gmail.com", 9845547471l, "Jakkuru,Bengaluru");
+		
+	}
+
+}

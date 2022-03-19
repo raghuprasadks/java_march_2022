@@ -1,0 +1,7 @@
+package oops;
+
+public class Car extends Vehicle{
+	
+	String ac="";
+
+}

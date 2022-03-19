@@ -1,0 +1,21 @@
+package basicsdemo;
+
+public class Functions_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		greet("Ravi");
+		float si = simpleInterest(10000,6,1);
+		System.out.println("Si is "+si);
+	}
+
+	
+	public static void greet(String name) {
+		System.out.println(name + " Welcome to Java");
+	}
+
+	public static float simpleInterest(float p,float roi,float t) {
+		return p*roi*t/100;
+	}
+
+}

@@ -1,0 +1,31 @@
+package oops;
+
+public class SonyTV implements UniversalRemote{
+
+	boolean status = false;
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+		status = true;
+		System.out.println("Sony TV : "+status);
+	}
+
+	@Override
+	public void changeChannel(String channel) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void changeVolume(int vol) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

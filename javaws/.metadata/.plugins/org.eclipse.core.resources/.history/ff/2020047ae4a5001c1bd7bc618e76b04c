@@ -1,0 +1,11 @@
+package oops;
+
+public class SBI extends RBI{
+
+	@Override
+	public float rateOfInterest() {
+		// TODO Auto-generated method stub
+		return 4.5;
+	}
+
+}

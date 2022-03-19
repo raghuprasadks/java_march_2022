@@ -1,0 +1,17 @@
+package stringfunctions;
+
+public class StringFunctions_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// string literal
+		String course = "Java MVC";
+		// char array
+		char coursechar[]={'J','a','v','a'};
+		
+		String coursenew = new String(coursechar);
+		
+
+	}
+
+}

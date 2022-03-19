@@ -1,0 +1,20 @@
+package stringfunctions;
+
+public class StringFunctions_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// string literal
+		String course = "Java MVC";
+		// char array
+		char coursechar[]={'J','a','v','a'};
+		
+		String coursenew = new String(coursechar);
+		System.out.println("String literal "+course);
+		System.out.println("Char array with new "+coursechar);
+		String course1 = "Java MVC";
+		System.out.println("course1 "+course1);
+
+	}
+
+}

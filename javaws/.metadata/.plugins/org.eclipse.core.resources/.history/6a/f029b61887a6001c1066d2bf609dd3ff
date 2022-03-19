@@ -1,0 +1,14 @@
+package collectionsdemo;
+
+public class Employee {
+	// member variables/attributes
+	private int code;
+	private String name;
+	private String dept;
+	private String desg;
+	private double salary;
+	
+	public Employee(int code,String name,String dept,String desg,double salary) {
+		
+	}
+}

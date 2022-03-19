@@ -1,0 +1,22 @@
+package collectionsdemo;
+
+import java.util.ArrayList;
+
+public class EmployeeMaster {
+
+	ArrayList<Employee> emplist = new ArrayList<Employee>();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		EmployeeMaster empMaster = new EmployeeMaster();
+		Employee emp1 = new Employee(1,"Raghu","IT","SME",69999);
+		empMaster.addEmployee(emp1);
+	}
+	
+	public void addEmployee(Employee emp) {
+		emplist.add(emp);
+		
+	}
+
+}

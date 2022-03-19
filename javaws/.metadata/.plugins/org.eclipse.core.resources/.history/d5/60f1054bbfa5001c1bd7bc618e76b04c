@@ -1,0 +1,14 @@
+package basicsdemo;
+
+public class Functions_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		greet("Ravi");
+	}
+
+	
+	public static void greet(String name) {
+		System.out.println(name + " Welcome to Java");
+	}
+}

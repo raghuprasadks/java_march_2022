@@ -1,0 +1,18 @@
+package oops;
+
+public class BankTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Bank myBank = new Bank();
+		int actno;
+		double balance;
+		actno = myBank.openAccount("raghu", "raghu@gmail.com", 9845547471l, "Jakkuru,Bengaluru");
+		balance =myBank.deposit(actno, 10000);
+		System.out.println("Balance after deposit of 10K " +balance);
+		
+	
+	}
+
+}

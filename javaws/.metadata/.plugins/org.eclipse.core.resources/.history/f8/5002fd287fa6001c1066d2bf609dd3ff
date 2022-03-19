@@ -1,0 +1,17 @@
+package collectionsdemo;
+
+import java.util.ArrayList;
+
+public class ArrayList_1 {
+
+	public static void main(String[] args) {
+		ArrayList fruitlist = new ArrayList();
+		fruitlist.add("Apple");
+		fruitlist.add("Banana");
+		fruitlist.add("Guava");
+		
+		
+
+	}
+
+}

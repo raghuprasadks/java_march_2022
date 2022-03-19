@@ -1,0 +1,13 @@
+package oops;
+
+public class Car extends Vehicle{
+	
+	String ac="";
+	
+	//override
+		public void start() {
+			System.out.println("Car:start:Button start ");
+			speed = 0;
+		}
+
+}

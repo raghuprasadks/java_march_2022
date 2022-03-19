@@ -1,0 +1,10 @@
+Agenda:
+1. Custom exceptions
+2. Wrapper classes
+3. String functions
+www.kaushalya.tech
+
+create an account in github.com
+download and install git
+git init
+git add .

@@ -1,0 +1,16 @@
+package basicsdemo;
+
+public class Operators_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Unary operator");
+		
+		int num=10;
+		System.out.println("Unaray operator "+num++);
+		System.out.println(num++);
+
+	}
+
+}

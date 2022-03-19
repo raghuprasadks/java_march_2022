@@ -1,0 +1,16 @@
+package encapsulation;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Account act = new Account();
+		//act.balance; cannot access private member variable
+		act.name="raghu";
+		
+		act.info();
+
+	}
+
+}

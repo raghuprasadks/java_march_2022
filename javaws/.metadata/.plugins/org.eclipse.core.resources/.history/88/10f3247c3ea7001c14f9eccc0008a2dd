@@ -1,0 +1,5 @@
+package exceptionmgmt;
+
+public class InvalidAge {
+
+}

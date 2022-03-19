@@ -1,0 +1,20 @@
+package exceptionmgmt;
+
+public class CustomException_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public void validateAge(int age) {
+		if (age>=18) {
+			System.out.println("You are eligible to vote");
+		}else {
+			throw new InvalidAge("Invalid age");
+		}
+		
+	}
+
+}

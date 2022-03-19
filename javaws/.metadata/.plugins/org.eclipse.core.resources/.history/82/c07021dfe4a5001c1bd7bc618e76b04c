@@ -1,0 +1,14 @@
+package oops;
+
+public class TestAbstract {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		RBI rbiabc = new SBI();
+		float interest;
+		interest = rbiabc.calculateInterest(10000, rbiabc.rateOfInterest(), 1);
+
+	}
+
+}

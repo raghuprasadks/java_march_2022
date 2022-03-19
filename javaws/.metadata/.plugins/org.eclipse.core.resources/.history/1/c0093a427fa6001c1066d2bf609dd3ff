@@ -1,0 +1,25 @@
+package collectionsdemo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayList_1 {
+
+	public static void main(String[] args) {
+		ArrayList fruitlist = new ArrayList();
+		fruitlist.add("Apple");
+		fruitlist.add("Banana");
+		fruitlist.add("Guava");
+		
+		Iterator itr = fruitlist.iterator();
+		
+		while(itr.hasNext()) {
+			// type casting
+			String fruit = (String)itr.next();
+			System.out.println(fruit);
+			
+		}
+
+	}
+
+}

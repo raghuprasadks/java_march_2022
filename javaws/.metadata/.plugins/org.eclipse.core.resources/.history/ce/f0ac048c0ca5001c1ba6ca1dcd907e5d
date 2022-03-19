@@ -1,0 +1,22 @@
+package basicsdemo;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void add(int num1,int num2) {
+		int result = 0;
+		result = num1 + num2;
+		System.out.println("Result of addition "+result);
+	}
+	
+	public static void subtract(int num1,int num2) {
+		int result = 0;
+		result = num1 - num2;
+		System.out.println("Result of subtraction "+result);
+	}
+
+}

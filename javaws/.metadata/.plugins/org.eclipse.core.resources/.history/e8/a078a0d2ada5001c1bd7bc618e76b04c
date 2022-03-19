@@ -1,0 +1,11 @@
+package basicsdemo;
+
+public class Array_6 {
+
+	public static void main(String[] args) {
+		int marks[]= {21,22,25,18,17};
+		
+		
+	}
+
+}

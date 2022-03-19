@@ -1,0 +1,47 @@
+Agenda:
+1. Array
+
+Assignment:
+1. Write a program to dynamically read the
+price of the items you have purchased in 
+a shop.
+a. Find the total price of all items
+b. Find the maximum price of items
+c. Find the minimum price of items
+d. Find the average price of items
+e. Create an array of pricesgt50 more than 50
+
+2. Write a function to calculate discount amount and 
+netamount as per the
+details given below.
+purchaseamt <=10000 discount = 5 %
+purchaseamt >10000 <=20000 discount = 10 %
+purchaseamt >20000 discount = 15 %
+
+you have to pass purchase amount as a parameter
+to discount function
+Ex:
+pur_amt=10000
+discount = 10000*.05
+net_amt = pur_amt-discount
+
+3. Create a Bank class having following functionality
+
+openAccount(name,email,mobile,address)
+
+this method should create an account number and should
+return it
+
+deposit(actno,amttodeposit)
+this method should add amttodeposit to the balance
+
+withdraw(actno,amttowithdraw)
+this method should deduct amttowithdraw from the balance
+
+checkBalance(actno)
+this method should return the balance
+
+
+
+
+

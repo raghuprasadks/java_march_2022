@@ -1,0 +1,11 @@
+package oops;
+
+public interface UniversalRemote {
+
+	
+	public void on();
+	public void changeChannel(String channel);
+	public void changeVolume(int vol);
+	public void off();
+	
+}

@@ -1,0 +1,24 @@
+Agenda:
+Introduction to Web Application Development
+Fullstack Web Application Development
+SDLC
+Waterfall ,Agile
+
+Download JDK 1.8 for windows
+Download Eclipse
+https://www.eclipse.org/downloads/
+
+Java
+Datatypes -
+int,float,char,string,boolean,double,short,byte,long
+Derived datatypes - array,string,class
+
+1. Write a program to demonstrate all data types.
+2. Write a program to demonstate different
+operator
+
+https://www.codementor.io/@dhananjaykumar/pms-part-3-payment-gateway-integration-15fercrfvy
+
+
+
+

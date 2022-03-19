@@ -1,0 +1,28 @@
+Agenda:
+Collection framework
+string methods
+Exception handling
+
+Assignment :
+
+1. Create a Product class having
+a constructor and information method
+with following properties
+code,name,description,price,manufacturer
+
+2. Create a ProductManager class having
+
+addProduct,listProduct and searchProdut
+method
+searchProduct(String productname) should return
+the matched product
+
+Queue
+https://www.javatpoint.com/collections-in-java
+
+Assignment :
+
+Study different collection interface and implementations
+such as list,set,queue,etc..
+Come up with differeces between each of them
+Let us know which collection is used in which scenario.

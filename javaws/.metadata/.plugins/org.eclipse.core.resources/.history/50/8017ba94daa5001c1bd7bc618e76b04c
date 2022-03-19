@@ -1,0 +1,20 @@
+package oops;
+
+public class Accounts {
+	
+	String name;
+	String email;
+	long mobile;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public Accounts(String name,String email,long mobile) {
+		this.name = name;
+		this.email = email;
+		this.mobile = mobile;
+	}
+
+}

@@ -1,0 +1,14 @@
+package stringfunctions;
+
+public class StringFunctions_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String course = "Java MVC";
+		String coursenew = {'J','a','v','a'};
+		
+
+	}
+
+}

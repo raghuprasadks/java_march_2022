@@ -1,0 +1,10 @@
+package oops;
+
+public class Bank {
+	
+	private String name;
+	private String email;
+	private long mobile;
+	private String address;
+
+}

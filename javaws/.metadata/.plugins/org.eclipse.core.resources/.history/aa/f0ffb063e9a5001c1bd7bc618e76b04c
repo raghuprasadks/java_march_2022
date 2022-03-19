@@ -1,0 +1,14 @@
+package encapsulation;
+
+public class Account {
+	
+	public String name;
+	String email; //default
+	protected long mobile;
+	private double balance;
+	
+	public void info() {
+		System.out.println("Name "+this.name + " email "+this.email +" mobile :"+this.mobile + "Balance : "+this.balance);
+	}
+
+}

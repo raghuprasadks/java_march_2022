@@ -1,0 +1,24 @@
+package basicsdemo;
+
+public class Array_6 {
+
+	public static void main(String[] args) {
+		// Define and initialize
+		int marks[]= {21,22,25,18,17};
+		
+		// Loop
+		System.out.println("Elements in the array");
+		
+		for (int i=0;i<marks.length;i++) {
+			System.out.println(marks[i]);
+		}
+		System.out.println("Update ::");
+		marks[4]=19;
+		
+		
+		
+		
+		
+	}
+
+}
